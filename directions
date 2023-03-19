@@ -1,0 +1,22 @@
+making an flask project
+command: pip install flask
+
+virtual environment:-
+command: python venv <name of virtual environment>
+
+activating virtual environment:
+command: source virt/scripts/activate
+
+starting the server:
+commands:	1. export FLASK_DEBUG=True
+			2. export FLASK_APP=main.py
+			3. flask run
+
+Follow the following steps to make version control
+
+commands:
+1. git config --global user.name "Ajay Kumar"
+2. git config --global user.email "ajaykumarmohapatra871c@gmail.com"
+3. git config --global push.default matching
+4. git config --global alias.co checkout
+5. git init
